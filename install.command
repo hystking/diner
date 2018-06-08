@@ -6,7 +6,7 @@ SCRIPT_DIR="$(dirname "$0")"
 
 echo copying scripts
 
-mkdir -p $EXPORT_DIR
+mkdir -p "$EXPORT_DIR"
 
 cp "$RESOURCE_DIR/startup.command" "$EXPORT_DIR/startup.command"
 
